@@ -1,7 +1,13 @@
-POCKET'S INVENTORY v1
+Pocket's Inventory App v2
 
-This is an installable Progressive Web App (PWA).
+Update adds:
+- Add Item
+- Delete Item
+- Move Up / Move Down
+- Edit item name, method, PAR, units, and pack sizes
+- Automatic renumbering after list changes
+- Local device saving
+- Improved service worker update behavior
 
-To install on iPhone, the folder must first be hosted on an HTTPS website. Then open the site in Safari, tap Share, and choose Add to Home Screen.
-
-The app stores inventory choices and on-hand counts locally on the device and caches itself for offline use after installation.
+To update GitHub Pages, upload/replace index.html and service-worker.js in the repository root.
+You do not need to reinstall the iPhone home-screen app.
