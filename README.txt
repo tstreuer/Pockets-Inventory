@@ -1,13 +1,10 @@
-Pocket's Inventory App v3
+Pocket's Inventory v3.1
 
-New in v3:
-- Each item has Sunday / Tuesday / Thursday order-day checkboxes.
-- Selecting an order day shows only items scheduled for that day's order.
-- Settings shows each item's scheduled days.
-- Edit any item and enter an exact Walk Position number.
-- Moving an item to a position automatically shifts and renumbers the rest.
-- Existing v2 device settings are migrated automatically; existing items default to all 3 days until you edit their schedule.
+Fixes:
+- Restores inventory items that were blank in v3.
+- Sunday / Tuesday / Thursday order-day scheduling.
+- Exact numeric Walk Position field.
+- Add/Edit/Delete item controls.
+- Existing v2/v3 settings migrate forward.
 
-GitHub Pages update:
-Replace index.html and service-worker.js in the repository root.
-If manifest/icons are already present, they do not need to change.
+Upload index.html and service-worker.js to GitHub to update the live app.
